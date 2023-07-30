@@ -2,6 +2,8 @@
 CAPI es una herramienta hecha con NextJS el cual ofrece una manera de guardar los Certificados de Escolaridad basados en el minteo de NFT's, proveyendo herramientas para simplificar el proceso de vinculación entre estos y una Wallet de Phantom en el blockchain de Solana.
 Está en DevNet.
 
+Tristemente solo Funciona en local, porque no logramos hacer que jale en Versel por los tiempos de espera.
+
 ## Primer paso
 
 ```bash
