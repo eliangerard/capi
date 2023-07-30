@@ -2,21 +2,18 @@
 CAPI es una herramienta hecha con NextJS el cual ofrece una manera de guardar los Certificados de Escolaridad basados en el minteo de NFT's, proveyendo herramientas para simplificar el proceso de vinculación entre estos y una Wallet de Phantom en el blockchain de Solana.
 Está en DevNet.
 
-Tristemente solo Funciona en local, porque no logramos hacer que jale en Versel por los tiempos de espera.
+Puedes utilizar [este enlace](https://main.dg4250ennog5l.amplifyapp.com/?title=Next+curso+completo&user=Elian+German&issuer=google&img=https%3A%2F%2Fmedia.sproutsocial.com%2Fuploads%2F2017%2F02%2F10x-featured-social-media-image-size.png) para comprobar su funcionamiento, desplegado en Amplify de AWS.
 
-## Primer paso
+
+## Primer paso para su ejecución local
 
 ```bash
+npm i
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 ## Segundo paso
-El funcionamiento es muy simple, solo necesitas poner un botón al final del curso que hagan tus usuarios de este tipo:
-La imagen recomendamos que no mida más de 500px x 500px.
+El funcionamiento es muy simple, solo necesitas poner un botón al final del curso que hagan tus usuarios de este tipo (La imagen recomendamos que no mida más de 500px x 500px):
 
 ```jsx
 import React from 'react';
