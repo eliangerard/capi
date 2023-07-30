@@ -12,7 +12,7 @@ yarn dev
 pnpm dev
 ```
 
-## Segundo
+## Segundo paso
 El funcionamiento es muy simple, solo necesitas poner un botón al final del curso que hagan tus usuarios de este tipo:
 ```jsx
 import React from 'react';
