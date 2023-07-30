@@ -15,10 +15,23 @@ pnpm dev
 ## Segundo
 El funcionamiento es muy simple, solo necesitas poner un botón al final del curso que hagan tus usuarios de este tipo:
 ```jsx
-<a href=`[https://capi-neon.vercel.app/?
-  title=${"Aquí va el título del certificado"}+test&
-  user=${"Aquí va el usuario"}&
-  issuer=${"Aquí va la empresa que emite el certificado"}&
-  img=${"Aquí la referencia en html del certificado que ya genera tu empresa, la imagen no el pdf"}`>
+import React from 'react';
 
-```
+const title = "Aquí va el título del certificado";
+const user = "Aquí va el usuario";
+const issuer = "Aquí va la empresa que emite el certificado";
+const imgHREF = "Aquí la referencia en html del certificado que ya genera tu empresa, la imagen no el pdf";
+
+const MyComponent = () => {
+  return (
+    <a href=`[https://capi-neon.vercel.app/?
+      title=${title}+test&
+      user=${user}&
+      issuer=${issuer}&
+      img=${imgHREF}`
+    >
+  );
+};
+
+export default MyComponent;
+
