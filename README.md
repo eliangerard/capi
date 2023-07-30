@@ -24,11 +24,11 @@ const imgHREF = "Aquí la referencia en html del certificado que ya genera tu em
 
 const MyComponent = () => {
   return (
-    <a href=`[https://capi-neon.vercel.app/?
+    <a href={`[https://capi-neon.vercel.app/?
       title=${title}+test&
       user=${user}&
       issuer=${issuer}&
-      img=${imgHREF}`
+      img=${imgHREF}`}
     >
   );
 };
