@@ -30,6 +30,7 @@ handler.post(async (req, res) => {
         console.error("error =>", error);
         res.status(500).json({ 
             message: "probably didnt get nameString",
+            error: error+'' ,
             name,
             hola: 'lo'+explorerLink,
             imageUrl,
