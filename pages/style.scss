@@ -38,8 +38,8 @@ p {
     // border: .4vw solid $cafe;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
-    width: 50vw;
-    height: 80vh;
+    width: 40vw;
+    height: 90vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -121,4 +121,13 @@ button:hover {
     background: rgb(25, 213, 214);
     background: linear-gradient(103deg, rgba(25, 213, 214, 1) 0%, rgba(27, 237, 203, 1) 100%);
     scale: 105%;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: $cafe solid .4vw;
+    padding: 1vw 2vw;
+    margin-bottom: 1vw;
+    font-family: 'Righteous', cursive;
+    font-size: large;
 }
