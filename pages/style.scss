@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Righteous&display=swap');
+
+$gris: #e4e7ef;
+$cafe: #362624;
+$azul: #4184e1;
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(65, 158, 225);
+    background: linear-gradient(38deg, rgb(222, 222, 222) 0%, rgb(185, 185, 185) 35%, rgb(232, 232, 232) 65%, rgb(179, 179, 179) 100%);
+    backdrop-filter: blur(20px);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Righteous', cursive;
+
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.caja {
+    background-color: rgba($gris, $alpha: 0.66);
+    padding: 5vh 5vw;
+    // border: .4vw solid $cafe;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+    .caja-header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        .capi {
+
+            margin: 0;
+            margin-bottom: 2vw;
+        }
+
+        h1 {
+            font-size: 4vw;
+        }
+
+        img {
+            width: 8vw;
+            height: 8vw;
+        }
+
+    }
+
+    .info {
+        margin-top: 0;
+        margin-bottom: 3vw;
+
+        .title {
+            font-weight: bold;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 0;
+            font-size: 1.5vw;
+            margin-bottom: 1vw;
+        }
+    }
+}
+
+button {
+
+    border: .4vw solid $cafe;
+    border-radius: 3vw;
+    // width: 20vw;
+    // height: 5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+    // background: rgb(33, 216, 137);
+    // background: linear-gradient(83deg, rgba(33, 216, 137, 1) 0%, rgba(34, 229, 138, 1) 52%, rgba(65, 225, 126, 1) 100%);
+    background: rgb(48, 210, 223);
+    background: linear-gradient(77deg, rgba(48, 210, 223, 1) 0%, rgba(35, 237, 211, 1) 100%);
+    backdrop-filter: blur(20px);
+    color: $cafe;
+    scale: 100%;
+
+
+    font-family: 'Righteous', cursive;
+    font-size: 1.5vw;
+
+    cursor: pointer;
+
+    transition: background-image 1s ease-in-out, scale .2s ease-in-out;
+}
+
+button:hover {
+    // background: rgb(34, 229, 138);
+    // background: linear-gradient(83deg, rgba(34, 229, 138, 1) 0%, rgba(38, 234, 162, 1) 53%, rgba(34, 229, 138, 1) 100%);
+    background: rgb(25, 213, 214);
+    background: linear-gradient(103deg, rgba(25, 213, 214, 1) 0%, rgba(27, 237, 203, 1) 100%);
+    scale: 105%;
+}
