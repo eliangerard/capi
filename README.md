@@ -14,6 +14,8 @@ pnpm dev
 
 ## Segundo paso
 El funcionamiento es muy simple, solo necesitas poner un botón al final del curso que hagan tus usuarios de este tipo:
+La imagen recomendamos que no mida más de 500px x 500px.
+
 ```jsx
 import React from 'react';
 
