@@ -25,7 +25,7 @@ const imgHREF = "Aquí la referencia en html del certificado que ya genera tu em
 
 const MyComponent = () => {
   return (
-    <a href={`[https://capi-neon.vercel.app/?
+    <a href={`https://main.dg4250ennog5l.amplifyapp.com/?
       title=${title}+test&
       user=${user}&
       issuer=${issuer}&
